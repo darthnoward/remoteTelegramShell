@@ -511,5 +511,4 @@ def register_log(file, command):    # Register user, id, date and command
 
 
 if __name__ == "__main__":
-    print("Bot running...")
     bot.polling(none_stop=True)
