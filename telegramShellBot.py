@@ -66,7 +66,7 @@ def load_config(configFile):
             cont += 1
             read = True
 
-config_path = os.getcwd() + "/config.txt"
+config_path = "/srv/tg-terminal/config.txt"
 load_config(config_path)
 
 f1 = open(LOG, "a+")
