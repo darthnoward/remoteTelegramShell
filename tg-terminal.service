@@ -1,0 +1,16 @@
+[Unit]
+Description=terminal over Telegram
+After=network-online.target
+Requires=network-online.target
+
+StartLimitIntervalSec=500
+StartLimitBurst=5
+
+[Service]
+Restart=always
+RestartSec=5s
+
+ExecStart=/usr/bin/python3 /srv/tg-terminal/telegramShellBot.py &
+
+[Install]
+WantedBy=multi-user.target
