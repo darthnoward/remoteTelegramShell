@@ -23,8 +23,8 @@ SHAREFOLDER = None    # Shared files storage folder path
 LOGLIMIT = None    # Max number of lines to register in log
 FORBIDDENCOMMANDS = [
     "wait", "exit", "clear", "aptitude", "raspi-config",
-    "nano", "dc", "htop", "ex", "expand", "vim", "man", "apt-get", "poweroff",
-    "reboot", "ssh", "scp", "wc"
+    "nano", "dc", "htop", "ex", "expand", "vim", "man", "apt-get",
+    "ssh", "scp", "wc", "su", "apt", "bye"
     ]    # non working commands due to API error or output eror
 
 
